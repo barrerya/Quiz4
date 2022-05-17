@@ -1,0 +1,7 @@
+C:\Users\Ryan\source\repos\Quiz4\Quiz4\bin\Quiz4.dll.config
+C:\Users\Ryan\source\repos\Quiz4\Quiz4\bin\Quiz4.dll
+C:\Users\Ryan\source\repos\Quiz4\Quiz4\bin\Quiz4.pdb
+C:\Users\Ryan\source\repos\Quiz4\Quiz4\obj\Debug\Quiz4.csproj.AssemblyReference.cache
+C:\Users\Ryan\source\repos\Quiz4\Quiz4\obj\Debug\Quiz4.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\source\repos\Quiz4\Quiz4\obj\Debug\Quiz4.dll
+C:\Users\Ryan\source\repos\Quiz4\Quiz4\obj\Debug\Quiz4.pdb

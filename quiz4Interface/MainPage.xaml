@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="quiz4Interface.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:quiz4Interface"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock TextWrapping="Wrap" Text="Interest Calculator!" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <TextBlock TextWrapping="Wrap" Text="Fill in the required values bellow to see how much money you will have after time passes." FontSize="25" HorizontalAlignment="Center" Margin="0,25,0,25"/>
+            <StackPanel Height="150" Orientation="Horizontal" BorderThickness="5" BorderBrush="black">
+                <StackPanel Width="500" BorderThickness="2" BorderBrush="black">
+                    <TextBlock TextWrapping="Wrap" Text="Deposit amount" FontSize="25" HorizontalAlignment="Center" Margin="0,0,0,25"/>
+                    <TextBox BorderThickness="3" Name="tbDeposit"/>
+                </StackPanel>
+                <StackPanel Width="500" BorderThickness="2" BorderBrush="black">
+                    <TextBlock TextWrapping="Wrap" Text="Interest rate(Please enter value as a decimal percent. Ex. 5% = 0.05)" FontSize="25" HorizontalAlignment="Center" Margin="0,0,0,25"/>
+                    <TextBox BorderThickness="3" Name="tbInterest"/>
+                </StackPanel>
+                <StackPanel Width="500" BorderThickness="2" BorderBrush="black">
+                    <TextBlock TextWrapping="Wrap" Text="Years the money will be in the bank" FontSize="25" HorizontalAlignment="Center" Margin="0,0,0,25"/>
+                    <TextBox BorderThickness="3" Name="tbYears"/>
+                </StackPanel>
+                                
+            </StackPanel>
+            <Button Name="btnSubmit" Content="Calculate!" FontSize="25" FontWeight="Bold" Width="1500" Click="btnSubmit_Click"/>
+            <TextBlock TextWrapping="Wrap" Text="Results:" FontSize="25" HorizontalAlignment="Center" Margin="0,25,0,0"/>
+            <TextBlock TextWrapping="Wrap" Name="tBlockOutput" Text="" FontSize="25" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+        </StackPanel>
+
+    </Grid>
+</Page>
